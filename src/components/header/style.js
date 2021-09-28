@@ -10,8 +10,8 @@ export const Container = styled.header`
   .profile {
     padding: 5px;
     background-color: #fff;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,5 +25,7 @@ export const Container = styled.header`
 
 export const List = styled.ul`
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
 `;

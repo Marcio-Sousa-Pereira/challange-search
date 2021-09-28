@@ -13,7 +13,15 @@ export const ContentBody = styled.section`
   display: flex;
   flex-direction: column;
   height: 70vh;
-  max-width: 800px;
+  max-width: 900px;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  min-width: 290px;
+
+  .row-input-search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 `;
